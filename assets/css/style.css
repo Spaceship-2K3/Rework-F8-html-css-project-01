@@ -228,6 +228,9 @@ a {
     color: #0689ff;
     margin-top: 0.8rem;
 }
+.guides-item .link:hover {
+    color: #2b99fa;
+}
 .guides-item .link img {
     margin-left: 0.6rem;
 }
@@ -235,7 +238,85 @@ a {
     margin: 3.8rem auto 0;
 }
 /* ======== Featured ========*/
-
+.featured {
+    background: #f5fafe;
+    padding: 10rem 0;
+}
+.featured .row {
+    align-items: center;
+    margin-top: 1.2rem;
+}
+.featured .title {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    color: #000339;
+}
+.featured .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #5a6473;
+}
+.featured .link {
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: right;
+    color: #0689ff;
+    display: block;
+}
+.featured .link img {
+    margin-left: 0.6rem;
+}
+.featured .list {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.featured .item {
+    width: 350px;
+    height: 357px;
+    border-radius: 1.2rem;
+}
+.featured .item a {
+    display: flex;
+}
+.featured .item a .thumb {
+    width: 350px;
+    height: 227px;
+    object-fit: cover;
+    border-radius: 1.2rem 1.2rem 0 0;
+}
+.featured .body {
+    padding: 1.6rem 2rem 2.2rem;
+    background-color: #ffffff;
+    border-radius: 0 0 1.2rem 1.2rem;
+}
+.featured .body .title a {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #000339;
+}
+.featured .body .desc {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #a3a6ab;
+    margin-top: 0.8rem;
+}
+.featured .info {
+    display: flex;
+    align-items: center;
+    margin-top: 1.8rem;
+}
+.featured .info img {
+    margin-right: 0.8rem;
+}
+.featured .info .lable {
+    margin-right: 2.2rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.01em;
+    color: #4d4d52;
+}
 /* ======== Subscription ========*/
 
 /* ======== Footer ========*/
