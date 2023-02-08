@@ -30,14 +30,20 @@ a {
     justify-content: center;
     color: #ffffff;
 }
+.btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
 
 /* Header */
 .header {
     background-color: #e6f0ff;
     height: 100vh;
     padding-top: 3.8rem;
+    position: relative;
 }
 
+/* Navigation */
 .header .nav {
     align-items: center;
     display: flex;
@@ -80,4 +86,44 @@ a {
     font-size: 1.4rem;
     color: #ffffff;
     margin-left: 1.8rem;
+}
+
+/* Hero */
+.hero .info {
+    width: 55.9rem;
+    height: 37.1rem;
+    margin-top: 8rem;
+}
+
+.hero .sub-title {
+    font-size: 1.8rem;
+    letter-spacing: 0.01em;
+    color: #687690;
+}
+.hero .title {
+    font-weight: 700;
+    font-size: 6.3rem;
+    line-height: 1.19;
+    color: #000336;
+    margin-top: 0.8rem;
+}
+.hero .desc {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.178;
+    text-transform: capitalize;
+    color: #5a6473;
+    margin-top: 1.8rem;
+}
+
+.hero .btn-cta {
+    font-size: 1.3rem;
+    margin-top: 3rem;
+}
+
+.hero img {
+    position: absolute;
+    bottom: 0;
+    width: 450px;
+    right: 4.6rem;
 }
