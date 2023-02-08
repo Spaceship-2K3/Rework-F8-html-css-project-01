@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn {
+    width: 17rem;
+    height: 5rem;
+    background: #0f1b4c;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+/* Header */
+.header {
+    background-color: #e6f0ff;
+    height: 100vh;
+    padding-top: 3.8rem;
+}
+
+.header .nav {
+    align-items: center;
+    display: flex;
+}
+
+.header .Logo {
+    width: 10.7rem;
+    height: 2.4rem;
+}
+
+.header ul {
+    display: flex;
+    margin-left: 3.6rem;
+}
+
+.header li a {
+    font-size: 1.4rem;
+    color: #4f5361;
+    margin-left: 2.8rem;
+}
+.header li a:hover {
+    color: rgb(125, 137, 182);
+    text-decoration: underline;
+}
+.header .action {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.action-link {
+    font-size: 1.4rem;
+    line-height: 21px;
+    color: #0f1b4c;
+}
+
+.action-btn {
+    width: 9.8rem;
+    height: 4rem;
+    font-size: 1.4rem;
+    color: #ffffff;
+    margin-left: 1.8rem;
+}
