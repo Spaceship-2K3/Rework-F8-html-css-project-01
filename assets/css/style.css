@@ -452,6 +452,25 @@ a {
     background-color: #f97f6b;
 }
 
+.row-qty {
+    margin-top: 10rem;
+    justify-content: space-between;
+}
+.qty-item {
+    margin-left: 2rem;
+}
+.qty-item strong {
+    font-weight: 600;
+    font-size: 6.4rem;
+    line-height: 1;
+    color: #000000;
+}
+.qty-item .qty-desc {
+    font-size: 1.8rem;
+    color: #7b8087;
+    margin-top: 2rem;
+}
+
 /* ======== Subscription ========*/
 
 /* ======== Footer ========*/
