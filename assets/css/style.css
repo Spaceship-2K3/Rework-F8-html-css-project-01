@@ -472,5 +472,93 @@ a {
 }
 
 /* ======== Subscription ========*/
-
+.subscription {
+    height: 374px;
+    background: #063183;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 5rem;
+    padding: 10rem 8rem;
+}
+.subscription .heading {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    color: #ffffff;
+}
+.subscription .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #ffffff;
+    opacity: 0.75;
+    margin-top: 1.4rem;
+}
+.subscription .btn {
+    width: 151px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #002366;
+    margin-top: 2rem;
+}
+.subscription img {
+    position: absolute;
+    bottom: 0;
+    right: 20rem;
+}
 /* ======== Footer ========*/
+
+.footer {
+    margin-top: 5rem;
+}
+
+.footer .heading {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #1c1c1d;
+    margin-bottom: 2.8rem;
+}
+
+.footer .list,
+.footer .desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #7a7a7e;
+}
+
+.footer .item {
+    margin-top: 1rem;
+}
+
+.footer .social img {
+    margin-top: 3rem;
+    background: #f9f9ff;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 3px;
+    object-fit: contain;
+    padding: 0.8rem;
+    cursor: pointer;
+    margin-left: 0.6rem;
+}
+
+.footer .social img:hover {
+    background-color: rgb(192, 246, 255);
+}
+
+.footer .row-bottom {
+    justify-content: space-between;
+    margin: 5rem 0 3rem;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #c2c2c2;
+}
