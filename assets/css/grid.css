@@ -8,6 +8,10 @@
     max-width: 1110px;
     margin: 0 auto;
 }
+.grid.wide.stats {
+    max-width: 1017px;
+    margin: 0 auto;
+}
 
 .row {
     display: flex;

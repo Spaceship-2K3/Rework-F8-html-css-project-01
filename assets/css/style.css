@@ -14,6 +14,8 @@ body {
     font-weight: 500;
 }
 
+/* General */
+
 a {
     text-decoration: none;
     display: inline-block;
@@ -33,6 +35,13 @@ a {
 .btn:hover {
     opacity: 0.9;
     cursor: pointer;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
 /* ======== Header ========*/
@@ -317,6 +326,132 @@ a {
     letter-spacing: 0.01em;
     color: #4d4d52;
 }
+/* ======== Stats ========*/
+
+.stats {
+    padding: 12rem 0 4rem;
+    margin-top: 7rem;
+}
+.stats .info {
+    width: 309px;
+    height: 326px;
+    margin-left: 11.5rem;
+}
+.stats .sub-title {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.29;
+    color: #000339;
+    position: relative;
+}
+.stats .sub-title::before {
+    position: absolute;
+    content: "";
+    width: 4.1rem;
+    height: 0.4rem;
+    background: #000339;
+    border-radius: 12px;
+    top: -1rem;
+}
+
+.stats .info .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #5a6473;
+    margin-top: 2rem;
+}
+.stats .img-block {
+    position: relative;
+}
+
+.stats .img-block .image {
+    width: 400px;
+    height: 460px;
+    border-radius: 12px;
+    margin-left: 7rem;
+    object-fit: cover;
+}
+
+.stats-trend {
+    position: absolute;
+    top: 0;
+    left: -2.5rem;
+    background-color: #ffffff;
+    width: 239px;
+    height: 250px;
+    border-radius: 0 0 1.2rem 1.2rem;
+    padding: 4.3rem 2rem 4.1rem;
+}
+
+.stats-trend .row {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.stats-trend .value {
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    color: #000339;
+}
+.stats-trend .desc {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #a7a7a7;
+    margin-top: 0.8rem;
+}
+.stats-trend .separate {
+    width: 100%;
+    height: 1.2px;
+    background: #e9e9e9;
+    margin: 2.2rem 0 1.4rem;
+}
+
+.stats-trend .avatar-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.stats-trend .avatar-group {
+    display: inline-flex;
+    margin-right: 0.8rem;
+    align-items: center;
+}
+.avatar-group .img,
+.avatar-group span {
+    width: 16.34px;
+    height: 16.34px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 1.2rem;
+    margin-left: -0.3rem;
+    font-size: 0.9rem;
+    color: #ffffff;
+    background-color: #1f3bb1;
+}
+.avatar-group .img:first-child {
+    margin-left: 0;
+}
+.avatar-block span:nth-child(2) {
+    background-color: #24d6d9;
+}
+.avatar-block span:nth-child(3) {
+    background-color: #f8c120;
+}
+.avatar-block span:nth-child(4) {
+    background-color: #f97f6b;
+}
+
 /* ======== Subscription ========*/
 
 /* ======== Footer ========*/
